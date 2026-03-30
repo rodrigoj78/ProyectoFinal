@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Tienda Ecommerce</title>
+    
 </head>
 <body>
     <header>
-        <h1>Tienda Ecommerce Zona Sinergia</h1>
+        <h1 class="titu">Tienda Ecommerce Zona Sinergia</h1>
+        <p class="bien">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto enim aspernatur magni velit quas. Error dolores sunt atque accusamus temporibus amet in accusantium eos sapiente tempore. Quae est quia assumenda.</p>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
@@ -20,9 +23,12 @@
 <!-- Productos destacados -->
 
     <h1 id="productos">Productos destacados</h1>
-    
-    <div>
-        <img src="img/isologo.png" alt="Isologo de Zona Sinergia">
+
+    <div class="tarjetas">
+
+    <div class="planes">
+        <img src="img/isologo.png" alt="Isologo de Zona Sinergia" class="plan">
+        <div>
         <h4>Streaming de Audio ZS01</h4>
         <p><ul>
             <li>Calidad de audio 128kbps</li>
@@ -31,9 +37,11 @@
         </ul>
         <h5>$ 5000 por mes</h5>
     </div>
+    </div>
 
-    <div>
+    <div class="planes">
         <img src="img/isologo.png" alt="Isologo de Zona Sinergia">
+        <div>
         <h4>Streaming de Audio ZS02</h4>
         <p><ul>
             <li>Calidad de audio 192kbps</li>
@@ -42,9 +50,11 @@
         </ul>
         <h5>$ 6700 por mes</h5>
     </div>
+    </div>
 
-    <div>
+    <div class="planes">
         <img src="img/isologo.png" alt="Isologo de Zona Sinergia">
+        <div>
         <h4>Streaming de Audio ZS03</h4>
         <p><ul>
             <li>Calidad de audio 192kbps</li>
@@ -53,11 +63,18 @@
         </ul>
         <h5>$ 15100 por mes</h5>
     </div>
+    </div>
+</div>
+    
+
+
+
+
 
     <!-- Formulario de contacto -->
      <h2>Escribinos</h2>
      
-    <form action="" id="contacto">
+    <form action="" id="contacto" div class="formulario">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
         <label for="email">Email:</label>
