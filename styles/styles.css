@@ -17,7 +17,7 @@
 .planes{
     display: flex;
     border: 1px solid black;
-    margin: 10px;
+    margin: 11px;
     padding: 0%;
 }
 .planes img{
